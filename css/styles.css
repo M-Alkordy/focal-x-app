@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Tajawal&display=swap);
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+.large-header {
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 0;
+	position: absolute;
+	height: 100% !important;
+	bottom: 0px;
+}
+
+.ar{
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150.9%;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin-right: 58%;
+	z-index: 1;
+}
+
+/* start nav */
+#home {
+	background-image: url('../img/demo-1-bg.jpg');
+	background-repeat: no-repeat;
+	height: 606px;
+}
+
+.Content{
+	position: relative;
+	font-family: 'Montserrat';
+	font-style: normal;
+	left: 0;
+	top: 0;
+	margin-right: 58%;
+	z-index: 1;
+}
+
+.nav-bar{
+	display: flex;
+	position: relative;
+	z-index: 1;
+	padding-top: 30px;
+	margin-left: 34px;
+
+}
+
+.nav-bar img{
+	margin-right: 367px;
+}
+
+#english{
+	padding-right: 8px;
+	border-right: 2px solid #FFFFFF;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20.7521px;
+	line-height: 25px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+#arabic{
+	padding-left:8px;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20.7521px;
+	line-height: 25px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+#arabic:focus , #english:focus{
+	color: white;
+}
+
+/* end nav */
+
+/* start text */
+.header{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 49px;
+	color: #FF8500;
+	margin: 64.42px 0 19px 34px;
+}
+
+.txt{
+	width: 610px;
+	height: 90px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150.9%;
+	margin: 0;
+	margin-left: 34px;
+	color: #FFFFFF;
+}
+
+.sec-text ,.sub-text pre{
+	display: flex;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin: 19px 0 0 34px;
+}
+
+.sec-text pre{
+	margin: 0;
+}
+
+.sec-text a{
+	color: #FF8500;
+	text-decoration:none;
+}
+
+/* end text */
+
+/* start Subscribe */
+.sub-text p{
+	margin-top: 32px;
+}
+
+form{
+	position: absolute;
+	margin-top: 16px;
+	margin-left: 33px;
+}
+
+form .input{
+	width: 377px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.24);
+	border-radius: 7px;
+	border: none;
+	outline: none;
+}
+
+form .input::placeholder{
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.sub{
+	position: relative;
+	top: 3px;
+    right: 16px;
+	background: #FF8500;
+	border-radius: 7px;
+	width: 130px;
+	height: 42px;
+	border: none;
+	outline: none;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin-top: 5px;
+}
+
+form .input-ar{
+	width: 377px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.24);
+	border-radius: 7px;
+	border: none;
+	outline: none;
+}
+
+form .input-ar::placeholder{
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.sub-ar{
+	position: relative;
+	top: 2px;
+    right: -35px;
+	background: #FF8500;
+	border-radius: 7px;
+	width: 130px;
+	height: 42px;
+	border: none;
+	outline: none;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin-top: 5px;
+}
+
+/* end Subscribe */
+
+/* start  Counter*/
+.countdown {
+	display: flex;
+	margin-top: 94px;
+	text-align:center;
+}
+
+.styled div {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin-right: 45px;
+}
+
+.styled div:first-child {
+	margin-left: 33px;
+}
+
+.styled div span {
+	display: block;
+}
+
+/* end  Counter*/
+
+/* start  footer*/
+.footer{
+	display: flex;
+	gap: 60px;
+	margin-top: 39px;
+	margin-left: 33px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.footer p{
+	margin: 0;
+}
+
+.footer .social{
+	display: flex;
+	gap: 6.65px;
+}
+
+/* end  footer*/
