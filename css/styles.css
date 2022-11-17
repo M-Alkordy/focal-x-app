@@ -49,7 +49,7 @@ body{
 	font-style: normal;
 	left: 0;
 	top: 0;
-	margin-right: 58%;
+	margin-right: 805px;
 	z-index: 1;
 }
 
@@ -62,11 +62,8 @@ body{
 
 }
 
-.nav-bar img{
-	margin-right: 367px;
-}
-
 #english{
+	color: white;
 	padding-right: 8px;
 	border-right: 2px solid #FFFFFF;
 	color: rgba(255, 255, 255, 0.5);
@@ -77,6 +74,7 @@ body{
 	line-height: 25px;
 	cursor: pointer;
 	text-decoration:none;
+	margin-left: 367px;
 }
 
 #arabic{
@@ -91,7 +89,7 @@ body{
 	text-decoration:none;
 }
 
-#arabic:focus , #english:focus{
+#arabic.active , #english.active{
 	color: white;
 }
 
@@ -106,17 +104,48 @@ body{
 	margin: 64.42px 0 19px 34px;
 }
 
-.txt{
-	width: 610px;
-	height: 90px;
+.Content .focal span{
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.Content .focal{
+	width: 610px;
+	height: 90px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
 	margin: 0;
 	margin-left: 34px;
+}
+
+.focal-ar span{
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150.9%;
 	color: #FFFFFF;
+}
+
+.focal-ar{
+	width: 610px;
+	height: 90px;
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin: 0;
+	margin-left: 34px;
 }
 
 .txt-ar{
@@ -151,6 +180,7 @@ body{
 
 .sec-text a{
 	color: #FF8500;
+	font-weight: 700;
 	text-decoration:none;
 }
 
@@ -162,7 +192,7 @@ body{
 	line-height: 150.9%;
 	display: flex;
 	color: #FFFFFF;
-	margin: 19px 0 0 34px;
+	margin: 21px 0 0 34px;
 }
 
 .sec-text-ar pre{
@@ -173,6 +203,7 @@ body{
 
 .sec-text-ar a{
 	color: #FF8500;
+	font-weight: 700;
 	text-decoration:none;
 }
 
@@ -215,7 +246,7 @@ form .input::placeholder{
 
 .sub{
 	position: relative;
-	top: 3px;
+	top: 2px;
     right: 16px;
 	background: #FF8500;
 	border-radius: 7px;
@@ -276,7 +307,13 @@ form .input-ar::placeholder{
 .countdown {
 	display: flex;
 	margin-top: 94px;
+	margin-bottom: 0;
 	text-align:center;
+}
+
+.countdown-ar {
+	gap: 5px;
+	margin-left: 20px;
 }
 
 .styled div {
@@ -286,7 +323,7 @@ form .input-ar::placeholder{
 	font-size: 20px;
 	line-height: 150.9%;
 	color: #FFFFFF;
-	margin-right: 45px;
+	margin-right: 34px;
 }
 
 .styled div:first-child {
@@ -302,8 +339,8 @@ form .input-ar::placeholder{
 /* start  footer*/
 .footer{
 	display: flex;
-	gap: 60px;
-	margin-top: 39px;
+	gap: 56px;
+	margin-top: 38px;
 	margin-left: 33px;
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -311,6 +348,8 @@ form .input-ar::placeholder{
 	font-size: 14px;
 	line-height: 150.9%;
 	color: #FFFFFF;
+	position: relative;
+	z-index: 1;
 }
 
 .footer p{
@@ -320,6 +359,34 @@ form .input-ar::placeholder{
 .footer .social{
 	display: flex;
 	gap: 6.65px;
+}
+
+.footer-ar{
+	display: flex;
+	gap: 78px;
+	margin-top: 38px;
+	margin-left: 53px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.footer-ar p{
+	margin: 0;
+}
+
+.footer-ar .social{
+	display: flex;
+	gap: 6.65px;
+}
+
+.footer a{
+	color: #FF8500;
+	font-weight: 400;
+	text-decoration:none;
 }
 
 /* end  footer*/
