@@ -246,7 +246,8 @@ form .input-ar::placeholder{
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 150.9%;
-	color: #FFFFFF;
+	color: rgba(255, 255, 255, 0.64);
+	padding: 8px 21px 2px 0px;
 }
 
 .sub-ar{
