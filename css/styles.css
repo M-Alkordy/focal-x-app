@@ -18,6 +18,10 @@ body{
 	bottom: 0px;
 }
 
+#demo-canvas{
+	width: 100%;
+	height: 100%;
+}
 .ar{
 	font-family: 'Tajawal', sans-serif;
 	font-weight: 400;
@@ -34,7 +38,9 @@ body{
 #home {
 	background-image: url('../img/demo-1-bg.jpg');
 	background-repeat: no-repeat;
-	height: 606px;
+	width: 100vw;
+	height: 100vh;
+	background-size: 100% 100%;
 }
 
 .Content{
@@ -113,7 +119,22 @@ body{
 	color: #FFFFFF;
 }
 
+.txt-ar{
+	width: 610px;
+	height: 90px;
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150.9%;
+	margin: 0;
+	margin-left: 34px;
+	color: #FFFFFF;
+}
+
 .sec-text ,.sub-text pre{
+	font-family: 'Montserrat';
+	font-style: normal;
 	display: flex;
 	font-weight: 500;
 	font-size: 20px;
@@ -123,10 +144,34 @@ body{
 }
 
 .sec-text pre{
+	font-family: 'Montserrat';
+	font-style: normal;
 	margin: 0;
 }
 
 .sec-text a{
+	color: #FF8500;
+	text-decoration:none;
+}
+
+.sec-text-ar ,.sub-text-ar pre{
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150.9%;
+	display: flex;
+	color: #FFFFFF;
+	margin: 19px 0 0 34px;
+}
+
+.sec-text-ar pre{
+	font-family: 'Tajawal';
+	font-style: normal;
+	margin: 0;
+}
+
+.sec-text-ar a{
 	color: #FF8500;
 	text-decoration:none;
 }
@@ -145,6 +190,11 @@ form{
 }
 
 form .input{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 150.9%;
 	width: 377px;
 	height: 40px;
 	background: rgba(255, 255, 255, 0.24);
@@ -154,6 +204,8 @@ form .input{
 }
 
 form .input::placeholder{
+	font-family: 'Montserrat';
+	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 150.9%;
@@ -170,15 +222,18 @@ form .input::placeholder{
 	height: 42px;
 	border: none;
 	outline: none;
+	font-family: 'Montserrat';
+	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 150.9%;
 	color: #FFFFFF;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 form .input-ar{
-	width: 377px;
+	width: 396px;
 	height: 40px;
 	background: rgba(255, 255, 255, 0.24);
 	border-radius: 7px;
@@ -197,7 +252,7 @@ form .input-ar::placeholder{
 .sub-ar{
 	position: relative;
 	top: 2px;
-    right: -35px;
+    right: -22px;
 	background: #FF8500;
 	border-radius: 7px;
 	width: 130px;
@@ -210,6 +265,7 @@ form .input-ar::placeholder{
 	line-height: 150.9%;
 	color: #FFFFFF;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 /* end Subscribe */
