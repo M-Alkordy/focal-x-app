@@ -1,0 +1,393 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Tajawal&display=swap);
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+.large-header {
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 0;
+	position: absolute;
+	height: 100% !important;
+	bottom: 0px;
+}
+
+#demo-canvas{
+	width: 100%;
+	height: 100%;
+}
+
+.ar{
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	font-size: 1.46vw;
+	line-height: 150.9%;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin-right: calc(100vw - 41.581vw);
+	z-index: 1;
+}
+
+/* start nav */
+#home {
+	background-image: url('../img/demo-1-bg.jpg');
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+
+.Content{
+	position: relative;
+	font-family: 'Montserrat';
+	font-style: normal;
+	left: 0;
+	top: 0;
+	margin-right: 58.93vw;
+	z-index: 1;
+}
+
+.nav-bar{
+	display: flex;
+	position: relative;
+	z-index: 1;
+	padding-top: 4.95vh;
+	margin-left: 2.489vw;
+
+}
+
+#english{
+	color: white;
+	padding-right: 0.585vw;
+	border-right: 0.146vw solid #FFFFFF;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.519vw;
+	line-height: 4.125vh;
+	cursor: pointer;
+	text-decoration:none;
+	margin-left: 27.2vw;
+}
+
+#arabic{
+	padding-left:0.585vw;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.519vw;
+	line-height: 4.125vh;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+#arabic.active , #english.active{
+	color: white;
+}
+
+/* end nav */
+
+/* start text */
+.header{
+	font-weight: 700;
+	font-size: 2.928vw;
+	line-height: 8.08vh;
+	color: #FF8500;
+	margin: 4.715vw 0 1.39vw 2.489vw;
+}
+
+.Content .focal span{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.Content .focal{
+	width: 44.6559vw;
+	height: 14.85vh;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin: 0;
+	margin-left: 2.489vw;
+}
+
+.focal-ar span{
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.focal-ar{
+	width: 44.6559vw;
+	height: 14.85vh;
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin: 0;
+	margin-left: 2.489vw;
+}
+
+.txt-ar{
+	width: 44.6559vw;
+	height: 14.85vh;
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	margin: 0;
+	margin-left: 2.489vw;
+	color: #FFFFFF;
+}
+
+.sec-text ,.sub-text pre{
+	font-family: 'Montserrat';
+	font-style: normal;
+	display: flex;
+	font-weight: 500;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin: 1.39vw 0 0 2.489vw;
+}
+
+.sec-text pre{
+	font-family: 'Montserrat';
+	font-style: normal;
+	margin: 0;
+}
+
+.sec-text a{
+	color: #FF8500;
+	font-weight: 700;
+	text-decoration:none;
+}
+
+.sec-text-ar ,.sub-text-ar pre{
+	font-family: 'Tajawal';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	display: flex;
+	color: #FFFFFF;
+	margin: 1.537vw 0 0 2.489vw;
+}
+
+.sec-text-ar pre{
+	font-family: 'Tajawal';
+	font-style: normal;
+	margin: 0;
+}
+
+.sec-text-ar a{
+	color: #FF8500;
+	font-weight: 700;
+	text-decoration:none;
+}
+
+/* end text */
+
+/* start Subscribe */
+.sub-text p{
+	margin-top: 5.28vh;
+}
+
+form{
+	position: absolute;
+	margin-top: 2.64vh;
+	margin-left: 2.415vw;
+}
+
+form .input{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.098vw;
+	line-height: 150.9%;
+	width: 27.5988vw;
+	height: 6.6vh;
+	background: rgba(255, 255, 255, 0.24);
+	border-radius: 0.512vw;
+	border: none;
+	outline: none;
+}
+
+form .input::placeholder{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.098vw;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	padding: 0.585vw 0px 0.658vw 0.658vw;
+}
+
+.sub{
+	position: relative;
+	top: 0.33vh;
+    right: 1.17vw;
+	background: #FF8500;
+	border-radius: 0.512vw;
+	width: 9.516vw;
+	height: 6.93vh;
+	border: none;
+	outline: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin-top: 0.825vh;
+	cursor: pointer;
+}
+
+form .input-ar{
+	width: 28.959vw;
+	height: 6.6vh;
+	background: rgba(255, 255, 255, 0.24);
+	border-radius: 0.512vw;
+	border: none;
+	outline: none;
+}
+
+form .input-ar::placeholder{
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: rgba(255, 255, 255, 0.64);
+	padding: 0.585vw 1.537vw 0.146vw 0px;
+}
+
+.sub-ar{
+	position: relative;
+	top: 0.33vh;
+    right: -1.61vw;
+	background: #FF8500;
+	border-radius: 0.512vw;
+	width: 9.516vw;
+	height: 6.93vh;
+	border: none;
+	outline: none;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin-top: 0.825vh;
+	cursor: pointer;
+}
+
+/* end Subscribe */
+
+/* start  Counter*/
+.countdown {
+	display: flex;
+	margin-top: 15.51vh;
+	margin-bottom: 0;
+	text-align:center;
+}
+
+.countdown-ar {
+	gap: 0.366vw;
+	margin-left: 1.46vw;;
+}
+
+.styled div {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.46vw;;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	margin-right: 2.489vw;
+}
+
+.styled div:first-child {
+	margin-left: 2.415vw;
+}
+
+.styled div span {
+	display: block;
+}
+
+/* end  Counter*/
+
+/* start  footer*/
+.footer{
+	display: flex;
+	gap: 4.099vw;
+	margin-top: 6.27vh;
+	margin-left: 2.415vw;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.02vw;
+	line-height: 150.9%;
+	color: #FFFFFF;
+	position: relative;
+	z-index: 1;
+}
+
+.footer p{
+	margin: 0;
+}
+
+.footer .social{
+	display: flex;
+	gap: 0.486vw;
+}
+
+.footer-ar{
+	display: flex;
+	gap: 5.71vw;
+	margin-top: 6.27vh;
+	margin-left: 3.8799vw;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.02vw;
+	line-height: 150.9%;
+	color: #FFFFFF;
+}
+
+.footer-ar p{
+	margin: 0;
+}
+
+.footer-ar .social{
+	display: flex;
+	gap: 0.486vw;
+}
+
+.footer a{
+	color: #FF8500;
+	font-weight: 400;
+	text-decoration:none;
+}
+
+/* end  footer*/
